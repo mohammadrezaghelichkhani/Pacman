@@ -557,6 +557,7 @@ void play(int *HighScore, std::string level)
 int main()
 {
     std::string level;
+    system("cls");
     std::cout << "Enter level\nEasy(1)\nMedium(2)\nHard(3)\n";
     char num;
     map<char, string> correspondingLevel;
